@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+main {
+    background-color: #D3E2D3;
+}
+
+/* Header*/
+#masthead {
+    width: auto;
+    position: relative;
+}
+
+.site-header a{
+    height: auto;
+}
+
+.site-branding {
+    padding: 5px 0;
+    width: auto;
+    height: 6vh;
+    background-color: #6D216F;
+}
+
+.site-branding h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Image with h2 text */
+#page-description {
+    width: 100vw;
+    height: 75;
+}
+.page-image {
+    width: auto;
+    height: 45vh;
+    background-image: url("/photos/img-background-nationalpark.jpeg");
+}
+
+.page-image h2 {
+    display: flex;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 200px;
+    padding-top: 135px;
+}
+
+#containerSelectors {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Card */
+.row {
+    padding: 20px 0;
+}
+
+.park {
+    max-height: 200px;
+    height: 200px;
+    max-width: 20vw;
+
+}
+
+.park-card-body {
+    margin: 10px 20px;
+    width: 300px;
+    max-width: 20vw;
+    max-height: 200px;
+    height: 200px;
+}
+
+.background-card {
+    height: 200px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+    border-radius: 2%;
+    background-size: 300px;
+}
+
+.background-card:hover {
+    animation: focus 1s ease-in forwards;
+}
+
+.park-card-title {
+    height: 85.5px;
+    color: white;
+    padding: 10px 5px;
+    
+}
+
+.park-name:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.explore{
+    background-color: #6D216F !important;
+    display: inherit !important;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+    border-radius: 2%;
+    margin-left:70%;
+    color: white;
+}
+
+.park-name{
+    height: 85.5px;
+    color: white;   
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+
+.park-description {
+    height: auto;
+    color: white;
+    font-weight: 500;
+    padding: 10px 5px;
+    text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+    -webkit-text-stroke: black 0.1px;
+}
+
+
+.selectors{
+    display: inline-flex;
+    width: 30%;
+    background-color: #6D216F !important;
+    color: white !important; 
+}
+
+.filters {
+    flex-direction: column;
+}
+
+.app-title {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 600;
+}
+
+/* footer */
+
+.footerBar {
+    height: 8vh;
+    width: auto;
+    background-color: #1C591A;
+}
+
+/* anchor edition */
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+/* animations */
+
+@keyframes focus {
+    0% {
+        background-size: 300px;
+    }
+
+    100% {
+        background-size: 350px;
+    }
+}

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: #D3E2D3;
+    height: 100%;
+}
+
+/* Header */
+#masthead {
+    width: auto;
+    position: relative;
+}
+
+.site-header a{
+    height: auto;
+}
+
+.site-branding {
+    padding: 5px 0;
+    width: auto;
+    height: 6vh;
+    background-color: #6D216F;
+}
+
+.site-branding h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+/* main */
+
+.main {
+    height: auto;
+}
+
+.filters {
+    padding: 40px;
+    background-color: #D3E2D3;
+}
+/* Mountain Display */
+
+#mountainDisplay {
+    background-color: #D3E2D3;
+    border: 10px #336633 solid;
+    margin: 20px;
+    padding: 40px;
+    border: 20px;
+}
+
+.mountainInfo {
+    background-color: black;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px;
+}
+
+.bottom p{
+    padding-left: 40px;
+}
+
+/* anchor edition */
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
